@@ -1,6 +1,6 @@
 import webbrowser
-
-print('Weleche Seite möchtest du öffnen?')
+# this code will open websites
+print('Welche Seite möchtest du öffnen?')
 print('1: GRIPS')
 print('2: LSF')
 inp = input()
