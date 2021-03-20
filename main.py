@@ -35,7 +35,9 @@ if device_name == '/device:GPU:0':
 else:
     raise SystemError('GPU device not found')
 #%%
-import torch# If there's a GPU available...
+import torch
+
+# If there's a GPU available...
 if torch.cuda.is_available():
     # Tell PyTorch to use the GPU.
     device = torch.device("cuda")
